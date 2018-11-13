@@ -7,6 +7,14 @@ __license__ = "GPL"
 __version__ = "1.1"
 __status__ = "active"
 
+
+import pandas as pd #for data
+import pandas.io.sql as psql #for SQL
+import pypyodbc #for vertica / video data
+import vertica_python #for vertica / video data
+import csv
+import os
+
 username = input("? USERNAME:") 
 password = input("? PASSWORD:")
 host = input("? HOST:")
@@ -14,13 +22,6 @@ port = input("? PORT:")
 database_name = input("? DATABASE NAME:")
 
 #def vertica_query(username,password,host,port,database_name)
-
-	import pandas as pd #for data
-	import pandas.io.sql as psql #for SQL
-	import pypyodbc #for vertica / video data
-	import vertica_python #for vertica / video data
-	import csv
-	import os
 
 	print ("vertica_runner launched...\n \
 		ABOUT: Created to run a simple query aggainst a vertica database using vertica_python\n\
