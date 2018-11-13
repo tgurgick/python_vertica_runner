@@ -1,5 +1,12 @@
 #SQL RUNNER FOUNDATIONAL PROGRAM FOR VERTICA DATABASES
 
+__author__ = "Trevor Gurgick"
+__copyright__ = "Copyright (c) 2018, Trevor Gurgick"
+
+__license__ = "GPL"
+__version__ = "1.1"
+__status__ = "active"
+
 username = input("? USERNAME:") 
 password = input("? PASSWORD:")
 host = input("? HOST:")
@@ -17,7 +24,7 @@ database_name = input("? DATABASE NAME:")
 
 	print ("vertica_runner launched...\n \
 		ABOUT: Created to run a simple query aggainst a vertica database using vertica_python\n\
-		VERSION 1.0\n \
+		VERSION 1.1\n \
 		CREATED 10.24.2018\n \
 		BUILT BY TGURGICK\n \
 		PYTHON CODE BASE\n \
